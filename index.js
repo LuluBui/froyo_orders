@@ -20,5 +20,5 @@ function countOrder(strarray) {
 const orderArray = flavorInputs.split(",");
 
 let orderObject = countOrder(orderArray);
-
+console.log("Your order is: ");
 console.log(orderObject);
